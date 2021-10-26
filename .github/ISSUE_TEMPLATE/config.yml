@@ -6,3 +6,6 @@ contact_links:
   - name: 🏷  Jupyter accessibility roadmap
     url: https://github.com/orgs/jupyterlab/projects/1
     about: Keep up to date with the accessibility work within the Jupyter ecosystem
+  - name: 💬 A11y discussion in the broader community
+    url: https://discourse.jupyter.org/c/special-topics/accessibility/29
+    about: Follow the a11y discussions in the Jupyter community Discourse

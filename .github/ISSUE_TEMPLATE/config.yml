@@ -1,11 +1,14 @@
 blank_issues_enabled: false
 contact_links:
   - name: 🚀 Learn more about the CZI grant 
-    url: 
+    url: https://github.com/jupyter/accessibility/blob/master/grant-applications/Inclusive_and_Accessible_Scientific_Computing_in_Jupyter_Ecosystem_SUBMITTED_PROPOSAL.pdf
     about: Read the full CZI grant psoposal
   - name: 🏷  Jupyter accessibility roadmap
     url: https://github.com/orgs/jupyterlab/projects/1
     about: Keep up to date with the accessibility work within the Jupyter ecosystem
   - name: 💬 A11y discussion in the broader community
     url: https://discourse.jupyter.org/c/special-topics/accessibility/29
-    about: Follow the a11y discussions in the Jupyter community Discourse
+    about: Check out the accessibility section of the community forum for ongoing conversations and brainstorms around accessibility in the Jupyter ecosystem
+  - name: 💻  Jupyter accessibility repo 
+    url: https://github.com/jupyter/accessibility
+    about: Find more about a11y efforts in tyhe ecosystem and also when the next a11y community call will take place

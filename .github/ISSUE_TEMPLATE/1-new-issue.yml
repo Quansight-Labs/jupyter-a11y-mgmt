@@ -1,5 +1,6 @@
 name: 💡 General Issue
 description: A general template for many kinds of issues.
+labels: 'status: needs triage'
 body:
 
 - type: textarea

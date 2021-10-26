@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🚀 Learn more about the CZI grant 
+    url: 
+    about: Read the full CZI grant psoposal
+  - name: 🏷  Jupyter accessibility roadmap
+    url: https://github.com/orgs/jupyterlab/projects/1
+    about: Keep up to date with the accessibility work within the Jupyter ecosystem

@@ -21,7 +21,6 @@ def get_session():
     )
     # Initialize the GH API and our markdown
     api = GhApi(token=token)
-    print("Logged in the GH API 🎉")
 
     return api
 
@@ -66,7 +65,9 @@ def open_issue(api, template):
         labels=["type: team-update", "type: internal-pm"],
     )
     issue_url = f"https://github.com/{resp.url.split('repos/')[-1]}"
-    print(f"Finished posting team update to {issue_url} !")
+
+    print(issue_url)
+
     return issue_url
 
 
@@ -76,4 +77,4 @@ if __name__ == "__main__":
     api = get_session()
     template = process_template(api)
     issue_url = open_issue(api, template)
-    print(issue_url)
+    sys.stdout(issue_url)

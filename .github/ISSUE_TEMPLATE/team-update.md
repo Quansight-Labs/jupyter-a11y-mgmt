@@ -37,7 +37,8 @@ _Copy and paste the template below, and answer questions as you wish!_
 
 </details>
 
-#### :mag: **Needs Triage**: _The [Needs Triage issues](https://github.com/Quansight/aes-management/issues?q=is%3Aopen+is%3Aissue+no%3Alabel) require an initial assessment and labeling._
+#### :mag: **Needs Triage**:
+_The [Needs Triage issues](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/labels/status%3A%20needs%20triage) require an initial assessment and labeling._
 
 {{INSERT NEEDS TRIAGE ISSUES HERE}}
 

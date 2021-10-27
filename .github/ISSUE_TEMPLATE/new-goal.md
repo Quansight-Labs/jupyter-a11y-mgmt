@@ -1,7 +1,9 @@
 ---
 name: "🧭 New Goal"
 about: Creating a new team goal
-labels: "Goal 🎯"
+labels: 
+    - "Goal 🎯"
+    - "type: deliverable"
 ---
 
 ## Background

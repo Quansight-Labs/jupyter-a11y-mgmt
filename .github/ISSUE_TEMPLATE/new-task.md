@@ -2,7 +2,9 @@
 name: "✅ New Task "
 about: Tasks are concrete actions to be taken.
 title: ''
-labels: 'status: needs triage'
+labels: 
+    - 'status: needs triage'
+    - 'type: task'
 assignees: ''
 
 ---

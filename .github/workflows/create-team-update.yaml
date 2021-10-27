@@ -1,0 +1,41 @@
+name: Open a weekly team update issue
+on:
+  schedule:
+  # Run every Tuesday at 13:00 (5:00 on PDT )
+  - cron: "00 13 * * TUE"
+
+  workflow_dispatch:
+
+jobs:
+  open-sync-issue:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        pip install -r ghapi
+
+    - name: Post team sync issue
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      run: |
+        echo "::set-output name=ISSUE_URL::$(python scripts/post-team-update.py)"
+      id: newsync
+
+    - name: Slack Notify
+      uses: rtCamp/action-slack-notify@v2.2.0
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_CHANNEL: aes-internal
+        SLACK_COLOR: '#7868E6'
+        SLACK_MESSAGE: 'Time to fill the weekly update :pencil: ${{ steps.newsync.outputs.ISSUE_URL }} '
+        SLACK_USERNAME: 'GH-bot'
+        SLACK_ICON_EMOJI: ":github-1:"
+        MSG_MINIMAL: true
+

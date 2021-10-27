@@ -1,0 +1,35 @@
+name: Close a weekly team update issue
+on:
+  schedule:
+  # Run every Wednesday at 13:00 (5:00 on PDT)
+  - cron: "00 08 * * THU"
+
+  workflow_dispatch:
+
+jobs:
+  close-sync-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # Install dependencies
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        pip install -r gaphi
+
+    - name: Archive team sync
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      run: |
+        python scripts/archive-team-update.py
+
+    - uses: lee-dohm/close-matching-issues@v2
+      with:
+        query: 'label:"type: team-update"'
+        token: ${{ secrets.GITHUB_TOKEN }}

@@ -4,7 +4,7 @@ about: Syncronize the team's goals and actions
 labels:
     - "type: team-update"
     - "type: internal-pm"
-title: "Team Sync - {{ date | date('dddd, MMMM Do') }}"
+title: "Team update - {{ date | date('dddd, MMMM Do') }}"
 ---
 
 This is a Jupyter a11y CZI team sync 🎉🎉🎉! This is a way for the Team Members
@@ -36,3 +36,13 @@ _Copy and paste the template below, and answer questions as you wish!_
 ```
 
 </details>
+
+#### :mag: **Needs Triage**: _The [Needs Triage issues](https://github.com/Quansight/aes-management/issues?q=is%3Aopen+is%3Aissue+no%3Alabel) require an initial assessment and labeling._
+
+{{INSERT NEEDS TRIAGE ISSUES HERE}}
+
+### :dart: Project boards
+
+Please make sure the boards reflect the current status of the project.
+
+[Jupyter a11y grant project](https://github.com/orgs/Quansight-Labs/projects/5/views/5)

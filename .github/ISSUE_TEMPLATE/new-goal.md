@@ -15,4 +15,4 @@ labels: "Goal 🎯"
 ## Steps to complete this goal
 
 <!-- This can be an abstract end-point, a date, a checklist of issues, etc. Something that will let us know when to close the issue. -->
-<!-- Add links to related issues (in this repo or elsewhere) that are more actionable -->
+<!-- Add links to related issues (in this repo or elsewhere) that are more actionable so this can be treated as a meta issue for tracking -->

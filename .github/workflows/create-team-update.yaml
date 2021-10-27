@@ -19,7 +19,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r ghapi
+        pip install ghapi
 
     - name: Post team sync issue
       env:

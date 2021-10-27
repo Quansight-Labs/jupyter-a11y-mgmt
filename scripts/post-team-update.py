@@ -40,8 +40,6 @@ def process_template(api):
     # This removes the header bracketed by ---
     template = "---".join(template.split("---")[2:]).strip()
     template = get_triage_issues(api, template)
-    template = get_prio_issues(api, template)
-
     return template
 
 

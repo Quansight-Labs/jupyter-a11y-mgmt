@@ -1,0 +1,28 @@
+name: ci
+
+on: 
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.9  
+    - run: python -m pip install nox
+    - run: nox
+    - uses: actions/upload-artifact@v2
+      with:
+        name: docs
+        path: _build/html    
+    # - name: Deploy
+    #   uses: JamesIves/github-pages-deploy-action@4.1.0
+    #   with:
+    #     branch: gh-pages
+    #     folder: _build/html
+    #     single-commit: Yes

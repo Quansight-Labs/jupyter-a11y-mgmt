@@ -7,10 +7,7 @@ labels:
 title: "Team update - {{ date | date('dddd, MMMM Do') }}"
 ---
 
-This is a Jupyter a11y CZI team sync 🎉🎉🎉! This is a way for the Team Members
-to provide status reports on what they've been up to this week and request
-help and attention for things they are working on. This issue will be closed at
-the end of the day.
+This is a  @Quansight-Labs/czi-a11y-grant team sync 🎉🎉🎉! This is a way for the Team Members to provide status reports on what they've been up to this week and request help and attention for things they are working on. This issue will be closed at the end of the day.
 
 _Copy and paste the template below, and answer questions as you wish!_
 
@@ -38,6 +35,7 @@ _Copy and paste the template below, and answer questions as you wish!_
 </details>
 
 #### :mag: **Needs Triage**:
+
 _The [Needs Triage issues](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/labels/status%3A%20needs%20triage) require an initial assessment and labeling._
 
 {{INSERT NEEDS TRIAGE ISSUES HERE}}

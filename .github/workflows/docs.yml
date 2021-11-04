@@ -24,6 +24,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
         branch: gh-pages
-        target-folder: ${{env.GITHUB_HEAD_REF || "/"}} 
+        target-folder: ${{env.GITHUB_HEAD_REF || '/'}} 
         folder: _build/html
         single-commit: No

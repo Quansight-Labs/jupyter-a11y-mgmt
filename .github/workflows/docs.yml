@@ -25,5 +25,5 @@ jobs:
       with:
         branch: gh-pages
         target-folder: ${{env.GITHUB_HEAD_REF || '/'}} 
-        folder: _build/html
+        folder: _build/singlehtml
         single-commit: No

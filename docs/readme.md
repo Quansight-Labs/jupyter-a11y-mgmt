@@ -13,14 +13,10 @@ Our team hosts bi-weekly meetings for accessibility in the Jupyter and Jupyterla
 - Where: [`jovyan` Zoom](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09)
 - What: [current agenda](https://hackmd.io/WnaWXboXSiGoqWvev_fAvA) and [public notes](https://github.com/jupyterlab/team-compass/issues/98) from past meetings.
 
-
-
-
 ## External Links
 
 * [Quansight Labs CZI Announcement Post][labs-blog-ann]
 * [CZI grant portal][czi]
-
 
 [czi]: https://chanzuckerberg.com/eoss/proposals/inclusive-and-accessible-scientific-computing-in-the-jupyter-ecosystem/ "CZI proposal portal"
 

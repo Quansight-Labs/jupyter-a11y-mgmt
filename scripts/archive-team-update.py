@@ -31,6 +31,7 @@ if issues:
         issue_comments = api.issues.list_comments(
             OWNER, REPO, issue_number=issue.number
         )
+        issue_url = issue.url
     if issue_comments:
         summary = (
             "\n".join(
@@ -39,6 +40,8 @@ if issues:
                     for comment in issue_comments
                 ]
             )
+            + "\n\n"
+            + f"See the original issue at: <{issue.url}>"
             + "\n\n"
         )
     else:

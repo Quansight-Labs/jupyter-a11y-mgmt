@@ -1,5 +1,5 @@
-# Weekly update for - - {{ date }}
+# Weekly update for: {{ date }}
 
-## Individual updates
+## :singer: Individual updates
 
 {{ INSERT PERSONAL UPDATES }}

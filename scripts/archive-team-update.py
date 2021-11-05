@@ -64,5 +64,5 @@ resp = api.repos.create_or_update_file_contents(
     message="🤖 weekly team update",
     content=encoded_template,
     path=f"team_updates/{report_date}.md",
-    branch="master",
+    branch="main",
 )

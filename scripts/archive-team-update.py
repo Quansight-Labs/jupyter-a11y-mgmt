@@ -40,8 +40,8 @@ if issues:
                 ]
             )
             + "\n\n"
-            + f"See the original issue at: <{issue.url}>"
-            + "\n\n"
+            + f":link: See the original issue at: <{issue.url}>"
+            + "\n"
         )
     else:
         summary = "Nothing to report"

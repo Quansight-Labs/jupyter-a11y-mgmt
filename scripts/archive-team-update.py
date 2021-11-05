@@ -4,7 +4,6 @@ from datetime import date
 
 from ghapi.actions import github_token
 from ghapi.all import GhApi
-from IPython.display import Markdown
 
 OWNER = "Quansight-Labs"
 REPO = "jupyter-a11y-mgmt"

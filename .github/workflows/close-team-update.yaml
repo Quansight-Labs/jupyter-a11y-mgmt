@@ -21,7 +21,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install gaphi
+        pip install ghapi
 
     - name: Archive team sync
       env:

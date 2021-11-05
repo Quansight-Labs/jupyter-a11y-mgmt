@@ -13,7 +13,7 @@ This Code of Conduct applies to the following people in `jupyter-a11y-mgmt` repo
 - reviewers
 - contributors
 
-While the `jupyter-a11y-mgmt` repository is our primary space, it may be necesary gather on other platforms to complete our work. The Code of Conduct applies to any online space where we announce we will be gathering to support work on the repository, whether meeting in real time or asynchorously.
+While the `jupyter-a11y-mgmt` repository is our primary space, it may be necessary to gather on other platforms to complete our work. The Code of Conduct applies to any online space where we announce we will be gathering to support work on the repository, whether meeting in real-time or asynchronously.
 
 This includes:
 - Video and text chats
@@ -27,7 +27,7 @@ Examples of unacceptable behavior include:
 - Harassment of any participants in any form
 - Deliberate intimidation, stalking, or following
 - Logging or taking screenshots of online activity for harassment purposes
-- Publishing others’ private information, such as a physical or electronic address, without explicit permission
+- Publishing others’ private information, such as a physical or electronic address, without explicit permission (a.k.a doxing)
 - Violent threats or language directed against another person
 - Incitement of violence or harassment towards any individual, including encouraging a person to commit suicide or to engage in self-harm
 - Creating additional online accounts in order to harass another person or circumvent a ban

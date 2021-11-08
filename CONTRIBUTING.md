@@ -1,6 +1,6 @@
 # Contributing to _jupyter-a11y-mgmt_
 
-:tada::raised_hands: **Welcome to _jupyter-a11y-mgmt_ repository!** :cake::raised_hands:
+:tada::raised_hands: **Welcome to _jupyter-a11y-mgmt_ repository!** :tada::raised_hands:
 
 :sparkles: _We're excited that you're here and want to contribute._ :sparkles:
 

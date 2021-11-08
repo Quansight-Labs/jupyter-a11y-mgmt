@@ -32,4 +32,4 @@ jobs:
     - uses: lee-dohm/close-matching-issues@v2
       with:
         query: 'label:"type: team-update"'
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.ACCESS_TOKEN }}

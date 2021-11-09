@@ -1,6 +1,6 @@
 name: Publish team compass
 
-on: 
+on:
   push:
     branches: [ main ]
     paths:
@@ -15,20 +15,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      name: Checkout repository 🛎
+
     - uses: actions/setup-python@v2
+      name: Setup Python 🐍
       with:
-        python-version: 3.9  
+        python-version: 3.9
+
     - run: python -m pip install nox
+      name: Install Python dependencies 📦
+
     - run: nox
+      name: Run nox docs session 🏃🏽‍♀️
+
     - run: touch _build/singlehtml/.nojekyll
+      name: No jekyll ⛔️
+
     - uses: actions/upload-artifact@v2
       with:
-        name: docs
-        path: _build/singlehtml/   
-    - name: Deploy
+        name: Upload build site 📥
+        path: _build/singlehtml/
+
+    - name: Deploy site 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
         branch: gh-pages
-        target-folder: ${{env.GITHUB_REF || '/'}} 
+        target-folder: ${{env.GITHUB_REF || '/'}}
         folder: _build/singlehtml
         single-commit: No

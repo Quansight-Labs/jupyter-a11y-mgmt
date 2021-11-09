@@ -11,7 +11,8 @@ on:
       - "docs/*"
 
 jobs:
-  build:
+  build-compass:
+    if: (github.event.pull_request) && !contains(github.head_ref, 'all-contributors')
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -27,6 +28,13 @@ jobs:
 
     - run: nox
       name: Run nox docs session 🏃🏽‍♀️
+    
+    - name: Run html proofer 🧐
+      uses: chabad360/htmlproofer@master
+      with:
+        directory: "_build/"
+        arguments: --assume-extension --disable-external --only_4xx
+      continue-on-error: true
 
     - run: touch _build/singlehtml/.nojekyll
       name: No jekyll ⛔️

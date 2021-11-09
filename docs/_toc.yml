@@ -1,4 +1,9 @@
 format: jb-book
 root: readme
-chapters:
-- file: roadmap
+parts:
+  - caption: Jupyter accessibility roadmap
+    chapters:
+    - file: roadmap
+  - caption: Code of Conduct
+    chapters:
+    - file: CODE_OF_CONDUCT

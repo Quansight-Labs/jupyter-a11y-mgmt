@@ -10,4 +10,6 @@ def docs(session):
     """Docs session for CI purposes - it installs the needed dependencies
     and build the JupyterBook"""
     session.install("jupyter-book")
-    session.run("jb", "build", "docs", "--path-output=.", "--builder=singlehtml")
+    session.run(
+        "jupyter-book", "build", "docs", "--path-output=.", "--builder=singlehtml"
+    )

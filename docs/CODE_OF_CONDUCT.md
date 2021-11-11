@@ -1,4 +1,4 @@
-# Repository Code of Conduct
+# This project's Code of Conduct
 
 The `jupyter-a11y-mgmt` repository is a part of the Project Jupyter community. As such, it follows [Project Jupyter's Code of Conduct](https://jupyter.org/conduct/).
 

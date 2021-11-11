@@ -1,5 +1,5 @@
 format: jb-book
-root: readme
+root: index
 parts:
   - caption: Jupyter accessibility roadmap
     chapters:

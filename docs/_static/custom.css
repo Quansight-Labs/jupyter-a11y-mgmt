@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/utn6bll.css");
+
+/* Body */
+body {
+    font-family: mundial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* Headings */
+main.bd-content #main-content h1,
+main.bd-content #main-content h2,
+main.bd-content #main-content h3,
+main.bd-content #main-content h4,
+main.bd-content #main-content h5 {
+    color: #533ca6;
+    font-family: mundial, sans-serif;
+    font-weight: 700;
+}
+
+#site-navigation h1.site-logo {
+    text-decoration: none;
+    font-family: mundial, Helvetica, sans-serif;
+}
+
+code {
+    color: #d93a3a;
+}
+
+/* Links */
+a,
+main.bd-content #main-content a {
+    color: #242cbf;
+    text-decoration: underline;
+}
+
+main.bd-content #main-content a:hover,
+main.bd-content #main-content a:visited {
+    color: #5056cc;
+    text-decoration: underline;
+}
+
+#site-navigation nav ul.nav a:hover,
+#site-navigation nav ul.nav li.active > a,
+#site-navigation nav ul.nav li.active > a:hover {
+    color: #5056cc;
+}
+
+.bd-toc nav a:hover,
+.bd-toc nav li.active > a.active {
+    color: #5056cc;
+}
+
+main.bd-content #main-content .prev-next-bottom .right-next .prevnext-title,
+main.bd-content #main-content .prev-next-bottom .left-prev .prevnext-title {
+    color: #242cbf;
+}
+
+main.bd-content #main-content a.headerlink:hover {
+    color: #533ca6;
+}
+
+.bd-sidebar .nav li > a,
+.bd-toc div.onthispage,
+.bd-toc .toc-entry a,
+div.navbar-brand-box a.navbar-brand {
+    text-decoration: none;
+}
+
+.bd-toc nav li.active > a.active {
+    border-left: 2px solid #242cbf;
+}
+
+main.bd-content #main-content .prev-next-bottom .right-next,
+main.bd-content #main-content .prev-next-bottom .left-prev {
+    text-decoration: none;
+}

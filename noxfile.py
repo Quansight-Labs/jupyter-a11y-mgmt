@@ -7,9 +7,16 @@ from nox import session
 
 @session(reuse_venv=True)
 def docs(session):
-    """Docs session for CI purposes - it installs the needed dependencies
+    """Docs session - it installs the needed dependencies
     and build the JupyterBook"""
     session.install("jupyter-book")
+    session.run("jupyter-book", "build", "docs")
+
+
+@session(reuse_venv=True)
+def serve(session):
+    """Docs session - it installs the needed dependencies
+    and build the JupyterBook"""
     session.run(
-        "jupyter-book", "build", "docs", "--path-output=.", "--builder=singlehtml"
+        "python", "-m", "http.server", "8000", "--directory", "docs/_build/html/"
     )

@@ -1,9 +1,18 @@
 # Project repo for the Jupyter CZI accessibility grant
 
-* [🚀 Learn more about the CZI grant][proposal]
-* [🏷  Jupyter accessibility roadmap][roadmap]
-* [💬 A11y discussion in the broader community][discourse]
-* [💻  Jupyter accessibility repo][ja11y]
+:::{panels}
+:container: +full-width text-left
+:column: col-lg-6 px-2 py-2
+:card:
+
+**Quick access links to learn more about the project**
+^^^
+
+* 🚀 [Learn more about the CZI grant][proposal]
+* 🏷 [Jupyter accessibility roadmap][roadmap]
+* 💬 [A11y discussion in the broader community][discourse]
+* 💻 [Jupyter accessibility repo][ja11y]
+:::
 
 ## Community meetings
 

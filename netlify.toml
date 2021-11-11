@@ -1,0 +1,16 @@
+[build]
+base = "docs"
+command = "nox"
+publish = "docs/_build/html"
+
+# Do not build deploy previews for branches from all-contributors bot
+[context.deploy-preview]
+ignore = '''
+if echo $HEAD | grep "^all-contributors"; then
+  return 0
+else
+  return 1
+fi
+'''
+
+

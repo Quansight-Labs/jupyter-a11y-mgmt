@@ -1,6 +1,6 @@
 [build]
 base = "docs"
-command = "nox"
+command = "jupyter-book build docs"
 publish = "docs/_build/html"
 
 # Do not build deploy previews for branches from all-contributors bot
@@ -12,5 +12,3 @@ else
   return 1
 fi
 '''
-
-

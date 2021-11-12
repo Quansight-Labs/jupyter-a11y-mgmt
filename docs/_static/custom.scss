@@ -103,6 +103,14 @@ main.bd-content #main-content {
     }
 }
 
+.prev-next-area a p.prev-next-title {
+    color: $accent-colour;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .bd-sidebar .nav li > a {
     text-decoration: none;
 }

@@ -18,10 +18,10 @@ jobs:
       with:
         python-version: 3.8
 
-    - run: python -m pip install nox
+    - run: python -m pip install nox jupyter-book livereload
       name: Install Python dependencies 📦
 
-    - run: nox --session docs
+    - run: nox --sessionn docs
       name: Build the site 👷🏽
     
     - name: Run html proofer 🧐

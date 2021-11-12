@@ -10,7 +10,7 @@ from livereload import Server, shell
 def docs(session):
     """Docs session - it installs the needed dependencies
     and build the JupyterBook, recommended for CI"""
-    session.install("jupyter-book")
+    session.install("jupyter-book", "livereload")
     session.run("jupyter-book", "build", "docs")
 
 

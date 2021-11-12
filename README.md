@@ -45,7 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://irpf.design"><img src="https://avatars.githubusercontent.com/u/50221806?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isabela Presedo-Floyd</b></sub></a><br /><a href="#a11y-isabela-pf" title="Accessibility">️️️️♿️</a></td>
+    <td align="center"><a href="http://irpf.design"><img src="https://avatars.githubusercontent.com/u/50221806?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isabela Presedo-Floyd</b></sub></a><br /><a href="#a11y-isabela-pf" title="Accessibility">️️️️♿️</a> <a href="#blog-isabela-pf" title="Blogposts">📝</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/commits?author=isabela-pf" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -1,6 +1,6 @@
 # Internal repo for the Jupyter CZI accessibility grant
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 | Information | Links |
@@ -47,6 +47,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://irpf.design"><img src="https://avatars.githubusercontent.com/u/50221806?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isabela Presedo-Floyd</b></sub></a><br /><a href="#a11y-isabela-pf" title="Accessibility">️️️️♿️</a> <a href="#blog-isabela-pf" title="Blogposts">📝</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/commits?author=isabela-pf" title="Code">💻</a> <a href="#content-isabela-pf" title="Content">🖋</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/commits?author=isabela-pf" title="Documentation">📖</a> <a href="#design-isabela-pf" title="Design">🎨</a> <a href="#eventOrganizing-isabela-pf" title="Event Organizing">📋</a> <a href="#fundingFinding-isabela-pf" title="Funding Finding">🔍</a> <a href="#ideas-isabela-pf" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/pulls?q=is%3Apr+reviewed-by%3Aisabela-pf" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="http://deathbeds.github.io"><img src="https://avatars.githubusercontent.com/u/4236275?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tony Fast</b></sub></a><br /><a href="#a11y-tonyfast" title="Accessibility">️️️️♿️</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/commits?author=tonyfast" title="Code">💻</a> <a href="#content-tonyfast" title="Content">🖋</a> <a href="#design-tonyfast" title="Design">🎨</a> <a href="#fundingFinding-tonyfast" title="Funding Finding">🔍</a> <a href="#ideas-tonyfast" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/pulls?q=is%3Apr+reviewed-by%3Atonyfast" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://trallard.dev"><img src="https://avatars.githubusercontent.com/u/23552331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tania Allard</b></sub></a><br /><a href="#fundingFinding-trallard" title="Funding Finding">🔍</a> <a href="#ideas-trallard" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-trallard" title="Maintenance">🚧</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/commits?author=trallard" title="Code">💻</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/commits?author=trallard" title="Documentation">📖</a> <a href="#projectManagement-trallard" title="Project Management">📆</a> <a href="https://github.com/Quansight-Labs/jupyter-a11y-mgmt/pulls?q=is%3Apr+reviewed-by%3Atrallard" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 

@@ -37,6 +37,21 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "trallard",
+      "name": "Tania Allard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23552331?v=4",
+      "profile": "https://trallard.dev",
+      "contributions": [
+        "fundingFinding",
+        "ideas",
+        "maintenance",
+        "code",
+        "doc",
+        "projectManagement",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,0 +1,87 @@
+@import url("https://use.typekit.net/utn6bll.css");
+/* Defining some vars here */
+/* Body */
+body {
+  font-family: mundial, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica Neue, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-feature-settings: "liga"; }
+
+/* Headings */
+main.bd-content #main-content h1,
+main.bd-content #main-content h2,
+main.bd-content #main-content h3,
+main.bd-content #main-content h4,
+main.bd-content #main-content h5 {
+  color: #533ca6;
+  font-weight: 700;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+  line-height: 1.125;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+#site-navigation h1.site-logo {
+  text-decoration: none;
+  font-family: mundial, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica Neue, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+code {
+  color: #d93a3a; }
+
+/* Links */
+a {
+  color: #242cbf; }
+  a:hover {
+    text-decoration: underline; }
+
+main.bd-content #main-content a {
+  color: #242cbf; }
+  main.bd-content #main-content a:hover, main.bd-content #main-content a:visited {
+    color: #5056cc;
+    text-decoration: underline; }
+
+#site-navigation nav ul.nav a:hover {
+  color: #5056cc; }
+#site-navigation nav ul.nav li.active > a {
+  color: #5056cc; }
+  #site-navigation nav ul.nav li.active > a:hover {
+    color: #5056cc; }
+
+.bd-toc nav a:hover,
+.bd-toc nav li.active > a.active {
+  color: #5056cc; }
+
+main.bd-content #main-content .prev-next-bottom .right-next .prevnext-title,
+main.bd-content #main-content .prev-next-bottom .left-prev .prevnext-title {
+  color: #242cbf; }
+  main.bd-content #main-content .prev-next-bottom .right-next .prevnext-title:hover,
+  main.bd-content #main-content .prev-next-bottom .left-prev .prevnext-title:hover {
+    text-decoration: underline; }
+main.bd-content #main-content a.headerlink:hover {
+  color: #533ca6;
+  text-decoration: underline; }
+
+.prev-next-area a p.prev-next-title {
+  color: #242cbf; }
+  .prev-next-area a p.prev-next-title:hover {
+    text-decoration: underline; }
+
+.bd-sidebar .nav li > a {
+  text-decoration: none; }
+
+.bd-toc div.onthispage,
+.bd-toc .toc-entry a {
+  text-decoration: none; }
+
+div.navbar-brand-box a.navbar-brand {
+  text-decoration: none; }
+
+.bd-toc nav li.active > a.active {
+  border-left: 2px solid #242cbf; }
+
+main.bd-content #main-content .prev-next-bottom .right-next,
+main.bd-content #main-content .prev-next-bottom .left-prev {
+  text-decoration: none; }
+
+/*# sourceMappingURL=custom.css.map */

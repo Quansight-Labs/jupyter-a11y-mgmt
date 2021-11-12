@@ -131,4 +131,12 @@ dmypy.json
 # extras
 _build
 Thumbs.db
+
+# For Mac developers
 .DS_Store
+
+# sass related items
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map

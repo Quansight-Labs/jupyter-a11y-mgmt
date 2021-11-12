@@ -1,0 +1,4 @@
+[build]
+base = ""
+command = "jupyter-book build docs"
+publish = "docs/_build/html"

@@ -27,6 +27,20 @@ Our team hosts bi-weekly meetings for accessibility in the Jupyter and Jupyterla
 * [Quansight Labs CZI Announcement Post][labs-blog-ann]
 * [CZI grant portal][czi]
 
+:::{admonition} Learn more and get involved
+:class: tip full-width
+
+💡 [Open an issue](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/issues/new/choose)
+: We track enhancement requests, bug-reports, and to-do items via GitHub issues.
+
+🙌 [Join the community](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/blob/main/CONTRIBUTING.md)
+: This is a community-driven project, we welcome anyone to join us in improving Jupyter's accessibility.
+  To join, check out our [contributing guide](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/blob/main/CONTRIBUTING.md).
+
+:::
+
+<!-- list of links to external resources -->
+
 [czi]: https://chanzuckerberg.com/eoss/proposals/inclusive-and-accessible-scientific-computing-in-the-jupyter-ecosystem/ "CZI proposal portal"
 
 [labs-blog-ann]: https://labs.quansight.org/blog/2021/08/czi-eoss4-grants-at-quansight-labs/ "Quansight Labs announcement about recieving funding for multiple projects"

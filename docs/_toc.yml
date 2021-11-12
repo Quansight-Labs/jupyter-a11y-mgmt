@@ -1,9 +1,15 @@
 format: jb-book
 root: index
+
 parts:
   - caption: Jupyter accessibility roadmap
     chapters:
-    - file: roadmap
+    - file: roadmap/intro
+
   - caption: Code of Conduct
     chapters:
     - file: CODE_OF_CONDUCT
+
+  - caption: Contributing
+    chapters:
+    - file: contribute/intro

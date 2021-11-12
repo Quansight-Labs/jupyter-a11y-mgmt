@@ -1,4 +1,4 @@
-name: Publish team compass
+name: Check team compass
 
 on:
   push:

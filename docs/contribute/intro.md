@@ -1,12 +1,12 @@
 # Contribute to this project
 
-Welcome we're excited you're here and want to contribute. ✨
+✨ Welcome we're excited you're here and want to contribute. ✨
 
 :::{admonition} Be sure to check out our Code of Conduct
-This project and its community follows [this Code of Conduct](CODE_OF_CONDUCT) to ensure that our online spaces are enjoyable, inclusive, and productive for all contributors.
+This project and its community follows [this Code of Conduct](../CODE_OF_CONDUCT.md) to ensure that our online spaces are enjoyable, inclusive, and productive for all contributors.
 :::
 
-## Getting started
+## Getting started (contributing to this site)
 
 ### Setting your local environment
 
@@ -38,4 +38,4 @@ To get started with the codebase, take the following steps:
 
 🎉  Once you have your server up and running you can head to [http://127.0.0.1:5500/](http://127.0.0.1:5500/) on your web browser of choice and get started.
 
-To stop the server you will need to type <kbd> Ctrl + c</kbd> on your terminal.
+To stop the server you will need to type <kbd> Ctrl + C </kbd> on your terminal.

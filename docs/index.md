@@ -1,5 +1,9 @@
 # Project repo for the Jupyter CZI accessibility grant
 
+Welcome! You have arrived at the homepage of an exciting project. We are [Quansight Labs](https://labs.quansight.org/) and we have an ambitious goal—to make JupyterLab accessible — and we would love your input and help.
+
+In mid 2021, Quansight Labs received a two-year [EOSS grant](https://chanzuckerberg.com/eoss/) from the Chan Zuckerberg Initiative to work with Project Jupyter on making JupyterLab accessible. This website is part of our effort to stay transparent, accountable, and open to the community and the broader public.
+
 :::{panels}
 :container: +full-width text-left
 :column: col-lg-6 px-2 py-2
@@ -14,13 +18,15 @@
 * 💻 [Jupyter accessibility repo][ja11y]
 :::
 
+---
+
 ## Community meetings
 
 Our team hosts bi-weekly meetings for accessibility in the Jupyter and Jupyterlab ecosystem.
 
-- When: every other Wednesday (check the [community calendar](https://jupyter.readthedocs.io/en/latest/community/content-community.html#jupyter-community-meetings)) at [10:15 AM Pacific Time](https://dateful.com/convert/san-francisco-california?t=1015am)
-- Where: [`jovyan` Zoom](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09)
-- What: [current agenda](https://hackmd.io/WnaWXboXSiGoqWvev_fAvA) and [public notes](https://github.com/jupyterlab/team-compass/issues/98) from past meetings.
+- **When**: every other Wednesday (check the [community calendar](https://jupyter.readthedocs.io/en/latest/community/content-community.html#jupyter-community-meetings)) at [10:15 AM Pacific Time](https://dateful.com/convert/san-francisco-california?t=1015am)
+- **Where**: [`jovyan` Zoom](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09)
+- **What**: [current agenda](https://hackmd.io/WnaWXboXSiGoqWvev_fAvA) and [public notes](https://github.com/jupyterlab/team-compass/issues/98) from past meetings.
 
 ## External Links
 
@@ -33,7 +39,7 @@ Our team hosts bi-weekly meetings for accessibility in the Jupyter and Jupyterla
 💡 [Open an issue](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/issues/new/choose)
 : We track enhancement requests, bug-reports, and to-do items via GitHub issues.
 
-🙌 [Join the community](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/blob/main/CONTRIBUTING.md)
+🙌  [Join the community](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/blob/main/CONTRIBUTING.md)
 : This is a community-driven project, we welcome anyone to join us in improving Jupyter's accessibility.
   To join, check out our [contributing guide](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/blob/main/CONTRIBUTING.md).
 

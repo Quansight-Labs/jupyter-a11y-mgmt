@@ -1,4 +1,7 @@
 # Internal repo for the Jupyter CZI accessibility grant
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 | Information | Links |
 |-------------|-------|
@@ -32,3 +35,23 @@ Our team hosts bi-weekly meetings for accessibility in the Jupyter and Jupyterla
 [roadmap]: https://github.com/orgs/jupyterlab/projects/1 "Keep up to date with the accessibility work within the Jupyter ecosystem"
 
 [ja11y]: https://github.com/jupyter/accessibility "Find more about a11y efforts in tyhe ecosystem and also when the next a11y community call will take place"
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://irpf.design"><img src="https://avatars.githubusercontent.com/u/50221806?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isabela Presedo-Floyd</b></sub></a><br /><a href="#a11y-isabela-pf" title="Accessibility">️️️️♿️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

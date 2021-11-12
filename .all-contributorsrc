@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "isabela-pf",
+      "name": "Isabela Presedo-Floyd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50221806?v=4",
+      "profile": "http://irpf.design",
+      "contributions": [
+        "a11y",
+        "blog",
+        "code",
+        "content",
+        "doc",
+        "design",
+        "eventOrganizing",
+        "fundingFinding",
+        "ideas",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "jupyter-a11y-mgmt",
+  "projectOwner": "Quansight-Labs",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

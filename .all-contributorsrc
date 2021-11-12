@@ -13,7 +13,14 @@
       "contributions": [
         "a11y",
         "blog",
-        "code"
+        "code",
+        "content",
+        "doc",
+        "design",
+        "eventOrganizing",
+        "fundingFinding",
+        "ideas",
+        "review"
       ]
     }
   ],

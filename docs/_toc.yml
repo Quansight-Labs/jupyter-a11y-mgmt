@@ -13,3 +13,7 @@ parts:
   - caption: Contributing
     chapters:
     - file: contribute/intro
+
+  - caption: News and media
+    chapters:
+    - file: news-media/intro

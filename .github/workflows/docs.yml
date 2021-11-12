@@ -1,4 +1,4 @@
-name: Publish team compass
+name: Check team compass
 
 on:
   push:
@@ -16,33 +16,16 @@ jobs:
     - uses: actions/setup-python@v2
       name: Setup Python 🐍
       with:
-        python-version: 3.9
+        python-version: 3.8
 
     - run: python -m pip install nox
       name: Install Python dependencies 📦
 
-    - run: nox
-      name: Run nox docs session 🏃🏽‍♀️
+    - run: nox --session docs
+      name: Build the site 👷🏽
     
     - name: Run html proofer 🧐
       uses: chabad360/htmlproofer@master
       with:
-        directory: "_build/"
+        directory: "docs/_build/"
         arguments: --assume-extension --disable-external --only_4xx
-      continue-on-error: true
-
-    - run: touch _build/singlehtml/.nojekyll
-      name: No jekyll ⛔️
-
-    - uses: actions/upload-artifact@v2
-      with:
-        name: Upload build site 📥
-        path: _build/singlehtml/
-
-    - name: Deploy site 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.0
-      with:
-        branch: gh-pages
-        target-folder: ${{env.GITHUB_REF || '/'}}
-        folder: _build/singlehtml
-        single-commit: No

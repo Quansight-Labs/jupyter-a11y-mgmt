@@ -1,8 +1,8 @@
 # Jupyter Accessibility Roadmap
 
-Created on: 
+Created on: November 11, 2021
 
-Last updated on:
+Last updated on: December 8, 2021
 
 ## Primary goals
 

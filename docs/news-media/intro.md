@@ -7,4 +7,5 @@
 ### Blogs
 
 * [EOSS CZI grant announcement](https://labs.quansight.org/blog/2021/08/czi-eoss4-grants-at-quansight-labs/) - Quansight Labs blog
-* [Not a checklist: different accessibility needs in JupyterLab](https://labs.quansight.org/blog/2021/09/not-a-checklist/) - by Isabela Presedo-Floyd
+* [CZI awards three EOSS grants to Jupyter community members](https://blog.jupyter.org/czi-awards-three-eoss-grants-to-jupyter-community-members-6aef43bd9468) - Jupyter Blog
+* [JupyterLab Accessibility posts in the Quansight Labs Blog](https://labs.quansight.org/categories/jlaba11y/) - by Isabela Presedo-Floyd

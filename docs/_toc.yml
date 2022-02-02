@@ -17,3 +17,4 @@ parts:
   - caption: News and media
     chapters:
     - file: news-media/intro
+    - file: news-media/blog-roadmap-announcement

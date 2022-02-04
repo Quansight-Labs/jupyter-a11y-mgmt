@@ -34,7 +34,8 @@ To get started with the codebase, take the following steps:
     ```
 
     Running this command will install `jupyter-book` in a virtual environment and build the output in `docs/_build`.
-    It will also start a server using `livereload`, which will be checking for any changes in `docs/` and build the site and reload the page in your web browser.
+    Runnign this command will use [`sphinx-autobuild`](https://github.com/executablebooks/sphinx-autobuild) to build the documentation site and start watching for changes in `docs/`.
+    It will also start a server at  `http://localhost:8000/`.
 
 🎉  Once you have your server up and running you can head to [http://127.0.0.1:5500/](http://127.0.0.1:5500/) on your web browser of choice and get started.
 

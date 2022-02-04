@@ -1,7 +1,7 @@
 title                       : Quansight Labs Jupyter CZI Accessibility Grant  
 author                      : Quansight Labs
 copyright                   : "2021"  
-logo                        : ""  
+logo                        : "images/jupyter_a11y_logo.png"  
 exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints",.nox]
 only_build_toc_files        : true
 

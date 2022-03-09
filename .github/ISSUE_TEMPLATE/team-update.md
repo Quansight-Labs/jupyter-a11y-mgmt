@@ -30,6 +30,12 @@ _Copy and paste the template below, and answer questions as you wish!_
 **My availability for next week**
 - I'll be off on XXX day...
 - I've got several meetings this week...
+
+**Important items for discussion 💬**
+- I'm have a question about goal <link-to-goal>
+- Can @XXX give a comment on issue #NN ?
+- I opened #NN for discussion, please chime in
+- I need to discuss XXX
 ```
 
 </details>

@@ -2,7 +2,7 @@ name: Close a weekly team update issue
 on:
   schedule:
   # Run every Thursday at 13:00 (5:00 on PDT)
-  - cron: "00 08 * * THU"
+  - cron: "00 08 * * FRI"
 
   workflow_dispatch:
 

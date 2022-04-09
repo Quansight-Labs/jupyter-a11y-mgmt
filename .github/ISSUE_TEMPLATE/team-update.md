@@ -1,5 +1,5 @@
 ---
-name: "🙌🏼 Weekly team update"
+name: "🙌🏼 - Weekly team update"
 about: Syncronize the team's goals and actions
 labels:
     - "type: team-update"
@@ -7,7 +7,7 @@ labels:
 title: "Team update - {{ date | date('dddd, MMMM Do') }}"
 ---
 
-This is a  @Quansight-Labs/czi-a11y-grant team sync 🎉🎉🎉! This is a way for the Team Members to provide status reports on what they've been up to this week and request help and attention for things they are working on. This issue will be closed at the end of the day.
+This is a @Quansight-Labs/czi-a11y-grant team sync 🎉🎉🎉! This is a way for the Team Members to provide status reports on what they've been up to this week and request help and attention for things they are working on. This issue will be closed at the end of the day.
 
 _Copy and paste the template below, and answer questions as you wish!_
 
@@ -16,31 +16,27 @@ _Copy and paste the template below, and answer questions as you wish!_
 
 ```md
 **Thanks I'd like to give 🙌**
-- So-and-so helped me out a lot with XXX...
-- Thanks for Jo's work on the XXX repo...
+- So-and-so helped me out a lot with foo...
 
 **Updates from last week :heavy_check_mark:**
 - I worked towards deliverable: <link-to-deliverable>
-- I had a meeting with ABC
 
 **Challenges I faced and things I'd like assistance with 🙏**
 - I had a hard time figuring out ...
-- Could somebody take a look at ...
 
 **My availability for next week**
-- I'll be off on XXX day...
-- I've got several meetings this week...
+- I'll be off on foo day...
 
 **Important items for discussion 💬**
 - I have a question about goal <link-to-goal>
-- Can @XXX give a comment on issue #NN ?
+- Can @foo give a comment on issue #NN ?
 - I opened #NN for discussion, please chime in
-- I need to discuss XXX
+- I need to discuss foo
 ```
 
 </details>
 
-#### :mag: **Needs Triage**:
+#### :mag: Needs Triage
 
 _The [Needs Triage issues](https://github.com/Quansight-Labs/jupyter-a11y-mgmt/labels/status%3A%20needs%20triage) require an initial assessment and labeling._
 

@@ -1,5 +1,5 @@
 ---
-name: "🚀 Sprint Planning"
+name: "🚀 - Sprint Planning"
 about: Conduct a Sprint Planning meeting.
 labels:
   - "type: sprint-planning :runner:"

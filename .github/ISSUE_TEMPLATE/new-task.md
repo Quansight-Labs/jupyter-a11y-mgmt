@@ -1,5 +1,5 @@
 ---
-name: "✅ New Task "
+name: "✅ - New Task "
 about: Tasks are concrete actions to be taken.
 title: ''
 labels: 

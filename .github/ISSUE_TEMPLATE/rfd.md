@@ -1,5 +1,5 @@
 ---
-name: "👀 Request for Discussion"
+name: "👀 - Request for Discussion"
 about: Open discussion about a feature or design project.
 labels:
   - "type: RFD"

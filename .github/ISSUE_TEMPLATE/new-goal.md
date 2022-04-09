@@ -1,5 +1,5 @@
 ---
-name: "🧭 New Goal"
+name: "🧭 - New Goal"
 about: Creating a new team goal
 labels: 
     - "Goal 🎯"

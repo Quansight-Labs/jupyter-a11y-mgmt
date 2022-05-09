@@ -10,11 +10,12 @@ title: "RFD - Title"
 <!-- Example of when and how to create a RFD or RFC (request for comments) -->
 <!-- https://gitpod.notion.site/Decision-Making-RFCs-eb4a57f3a34f40f1afbd95e05322af70 -->
 
-| Status       | Proposed/Accepted/Implemented/Obsolete |
+| Status       | Draft 🚧 / Proposed 📬/ Accepted ✅ /Implemented 🚀/ Obsolete 🗃 |
 |--------------|----------------------------------------|
 | Author(s)    | GitHub handle |
 | Date Created | dd-MM-YYY |
-| Date Last updated| dd-MM-YYY |
+| Date Last updated | dd-MM-YYY |
+| Decision deadline | dd-MM-YYY |
 
 # Title
 

@@ -25,15 +25,15 @@ Over the course of the two-year grant, we are aiming to transform the Jupyter ec
 ### 🏃‍♀️ In the works
 
 - Add automated accessibility tests to JupyterLab ([JupyterLab issue #9742](https://github.com/jupyterlab/jupyterlab/issues/9742))
-- Update the [JupyterLab accessibility project board](https://github.com/orgs/Quansight-Labs/projects/5/views/1)
 - Determine pathways for inviting community engagement
+- Improve color contrast in JupyterLab ([WCAG minimum contrast](https://www.w3.org/TR/WCAG21/#contrast-minimum)) ([JupyterLab issue #8832](https://github.com/jupyterlab/jupyterlab/issues/8832))
+- Support for 400% zoom in JupyterLab ([WCAG reflow](https://www.w3.org/TR/WCAG21/#reflow))([JupyterLab issue #10004](https://github.com/jupyterlab/jupyterlab/issues/10004))
 
 ### 🏁 Coming soon
 
-- Improve color contrast in JupyterLab ([WCAG minimum contrast](https://www.w3.org/TR/WCAG21/#contrast-minimum)) ([JupyterLab issue #8832](https://github.com/jupyterlab/jupyterlab/issues/8832))
-- Support for 400% zoom in JupyterLab ([WCAG reflow](https://www.w3.org/TR/WCAG21/#reflow))([JupyterLab issue #10004](https://github.com/jupyterlab/jupyterlab/issues/10004))
 - Cross-project outreach within Project Jupyter and beyond
 - Add a news section to the [jupyter-a11y-mgmt team compass](https://quansight-labs.github.io/jupyter-a11y-mgmt/readme.html)
+- Add accessibility tests to JupyterLab documentation
 
 ### 🚀 Not too far off
 

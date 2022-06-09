@@ -5,6 +5,7 @@ parts:
   - caption: Jupyter accessibility roadmap
     chapters:
     - file: roadmap/intro
+    - file: roadmap/done
 
   - caption: Code of Conduct
     chapters:

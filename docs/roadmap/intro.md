@@ -7,7 +7,7 @@
 
 **Created on:** November 11, 2021
 
-**Last updated on:** December 8, 2021
+**Last updated on:** June 8, 2021
 
 :::
 
@@ -22,27 +22,27 @@ Over the course of the two-year grant, we are aiming to transform the Jupyter ec
 
 ## Action items
 
-### :runner: In the works
+### 🏃‍♀️ In the works
 
 - Add automated accessibility tests to JupyterLab ([JupyterLab issue #9742](https://github.com/jupyterlab/jupyterlab/issues/9742))
 - Update the [JupyterLab accessibility project board](https://github.com/orgs/Quansight-Labs/projects/5/views/1)
 - Determine pathways for inviting community engagement
 
-### :checkered_flag: Coming soon
+### 🏁 Coming soon
 
 - Improve color contrast in JupyterLab ([WCAG minimum contrast](https://www.w3.org/TR/WCAG21/#contrast-minimum)) ([JupyterLab issue #8832](https://github.com/jupyterlab/jupyterlab/issues/8832))
 - Support for 400% zoom in JupyterLab ([WCAG reflow](https://www.w3.org/TR/WCAG21/#reflow))([JupyterLab issue #10004](https://github.com/jupyterlab/jupyterlab/issues/10004))
 - Cross-project outreach within Project Jupyter and beyond
 - Add a news section to the [jupyter-a11y-mgmt team compass](https://quansight-labs.github.io/jupyter-a11y-mgmt/readme.html)
 
-### :rocket: Not too far off
+### 🚀 Not too far off
 
 - Support full-interface keyboard navigability in JupyterLab ([WCAG](https://www.w3.org/TR/WCAG21/#keyboard-accessible))
 - JupyterLab documentation accessibility audit (manual and automated tests)
 - Update JupyterLab documentation to cover accessibility features added to JupyterLab
 - Update JupyterLab contributing guidelines to include accessibility considerations
 
-### :target: All roadmap items
+### 🎯 All roadmap items
 
 The above items show what we'll be working on in the near future, not everything on the roadmap. If you want to review the full scope of the two-year grant, all key items are listed on the [jupyter-a11y-mgmt repository's planning issues](https://github.com/orgs/Quansight-Labs/projects/5/views/1).
 
@@ -70,7 +70,7 @@ Does one of the above items interest you? Do you have accessibility knowledge th
 
 This roadmap will be updated periodically. Check back to find what's been completed and what's to be worked on next.
 
-Tasks that have been completed will be listed on the changelog (🚧 coming soon!)
+Tasks that have been completed will be listed on the [changelog.](done.md)
 
 ### Start learning about accessibility
 

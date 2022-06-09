@@ -7,7 +7,7 @@
 
 **Created on:** November 11, 2021
 
-**Last updated on:** June 8, 2021
+**Last updated on:** June 8, 2022
 
 :::
 
@@ -25,15 +25,16 @@ Over the course of the two-year grant, we are aiming to transform the Jupyter ec
 ### 🏃‍♀️ In the works
 
 - Add automated accessibility tests to JupyterLab ([JupyterLab issue #9742](https://github.com/jupyterlab/jupyterlab/issues/9742))
-- Determine pathways for inviting community engagement
 - Improve color contrast in JupyterLab ([WCAG minimum contrast](https://www.w3.org/TR/WCAG21/#contrast-minimum)) ([JupyterLab issue #8832](https://github.com/jupyterlab/jupyterlab/issues/8832))
 - Support for 400% zoom in JupyterLab ([WCAG reflow](https://www.w3.org/TR/WCAG21/#reflow))([JupyterLab issue #10004](https://github.com/jupyterlab/jupyterlab/issues/10004))
+- Determine pathways for inviting community engagement
 
 ### 🏁 Coming soon
 
 - Cross-project outreach within Project Jupyter and beyond
 - Add a news section to the [jupyter-a11y-mgmt team compass](https://quansight-labs.github.io/jupyter-a11y-mgmt/readme.html)
 - Add accessibility tests to JupyterLab documentation
+- Polish JupyterLab automated accessibility test reporting
 
 ### 🚀 Not too far off
 

@@ -18,7 +18,7 @@ Find the full list of grant issues at [Kale](https://github.com/Quansight-Labs/j
 - Maintain the [JupyterLab accessibility project board](https://github.com/orgs/Quansight-Labs/projects/5/views/1)
 - Begin adding automated accessibility tests to [jupyter/accessibility](https://github.com/jupyter/accessibility/) for running in JupyterLab (and other configurable Jupyter interfaces) ([JupyterLab issue #9742](https://github.com/jupyterlab/jupyterlab/issues/9742) and [jupyter/accessibility #18](https://github.com/jupyter/accessibility/issues/18))
 - Begin writing custom, manual testing-inspired accessibility tests for JupyterLab
-- Created a first iteration of JupyterLab accessibility statment
+- Create JupyterLab accessibility statement
 - Outreach to multiple projects in the ecosystem with alt text writing events
 
 ---

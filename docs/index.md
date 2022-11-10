@@ -51,7 +51,7 @@ Our team hosts bi-weekly meetings for accessibility in the Jupyter and Jupyterla
 
 [labs-blog-ann]: https://labs.quansight.org/blog/2021/08/czi-eoss4-grants-at-quansight-labs/ "Quansight Labs announcement about recieving funding for multiple projects"
 
-[proposal]: https://github.com/jupyter/accessibility/blob/master/grant-applications/Inclusive_and_Accessible_Scientific_Computing_in_Jupyter_Ecosystem_SUBMITTED_PROPOSAL.pdf "Read the full CZI grant psoposal with personal information redacted"
+[proposal]: https://github.com/jupyter/accessibility/blob/main/docs/funding/Inclusive_and_Accessible_Scientific_Computing_in_Jupyter_Ecosystem_SUBMITTED_PROPOSAL.pdf "Read the full CZI grant proposal with personal information redacted"
 
 [discourse]: https://discourse.jupyter.org/c/special-topics/accessibility/29 "Check out the accessibility section of the community forum for ongoing conversations and brainstorms around accessibility in the Jupyter ecosystem"
 

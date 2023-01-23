@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add To GitHub Projects Beta
-        uses: actions/add-to-project@v0.3.0
+        uses: actions/add-to-project@v0.4.0
         with:
           project-url: https://github.com/orgs/Quansight-Labs/projects/5
           github-token: ${{ secrets.ACCESS_TOKEN }}

@@ -77,4 +77,4 @@ if __name__ == "__main__":
     api = get_session()
     template = process_template(api)
     issue_url = open_issue(api, template)
-    sys.stdout(issue_url)
+    print(issue_url)

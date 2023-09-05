@@ -1,8 +1,8 @@
 name: Open a weekly team update issue
 on:
-  schedule:
+  # schedule:
     # Run every Tuesday at 13:00 (5:00 on PDT )
-    - cron: "00 13 * * WED"
+    # - cron: "00 13 * * WED"
 
   workflow_dispatch:
     inputs:

@@ -24,11 +24,12 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_CHANNEL: trallard-test-channel
           SLACK_COLOR: "#7868E6"
+          SLACK_TITLE: "New PR assigned for review"
           SLACK_MESSAGE: |
-            "A new PR has been assigned to you for review :eyes:
             *PR Title*: ${{ env.PR_TITLE }}
             *PR URL*: ${{ env.PR_URL }}
-            *Reviewers*: ${{ env.REVIEWERS }}"
+            *Reviewers*: ${{ env.REVIEWERS }}
           SLACK_USERNAME: "GH-bot"
           SLACK_ICON_EMOJI: ":bell:"
+          SLACK_LINK_NAMES: true
           MSG_MINIMAL: event

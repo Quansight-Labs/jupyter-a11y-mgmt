@@ -1,0 +1,34 @@
+name: Slack notification - reviewer assigned
+on:
+  pull_request:
+    # only need to trigger when someone has been assigned as a reviewer
+    types: [review_requested]
+
+jobs:
+  get-pr-info-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: "Extract PR details"
+        id: pr_details
+        run: |
+          echo "REVIEWERS=$(jq -r '.pull_request.requested_reviewers | map(.login) | join(",")' $GITHUB_EVENT_PATH)" >> $GITHUB_ENV
+          echo "PR_TITLE=$(jq -r '.pull_request.title' $GITHUB_EVENT_PATH)" >> $GITHUB_ENV
+          echo "PR_URL=$(jq -r '.pull_request.html_url' $GITHUB_EVENT_PATH)" >> $GITHUB_ENV
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+      
+      - name: "Slack notification"
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: trallard-test-channel
+          SLACK_COLOR: "#7868E6"
+          SLACK_MESSAGE: |
+            "A new PR has been assigned to you for review :eyes:
+            *PR Title*: ${{ env.PR_TITLE }}
+            *PR URL*: ${{ env.PR_URL }}
+            *Reviewers*: ${{ env.REVIEWERS }}"
+          SLACK_USERNAME: "GH-bot"
+          SLACK_ICON_EMOJI: ":bell:"
+          MSG_MINIMAL: event
